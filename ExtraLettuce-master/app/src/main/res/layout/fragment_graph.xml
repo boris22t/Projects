@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/graph"
+        android:elevation="20dp"
+        android:background="#81c784"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/topheader"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/goal_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/graph" >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
